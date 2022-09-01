@@ -1,0 +1,1 @@
+# altschool-frontend-exercise
