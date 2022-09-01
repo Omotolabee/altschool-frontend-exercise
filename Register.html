@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="reg_container">
+
+        <header>
+
+            <img class="logo" src="logo2.png" alt="logo">
+
+            <nav class="nav_links">
+
+                <ul class="reg_list">
+                    <li><a href="Aboutme.html">About Me</a></li>
+                    <li><a href="Aboutme.html#contacts_us">Contacts</a></li>
+                    <li><a href="Calculator.html">Calculator</a></li>
+                    <li><a href="login.html">Log In</a></li>
+                    <a class="cta" href="Register.html"><button>Register</button></a>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="reg_form">
+            <div class="box">
+
+              <div class="register">
+                <h3>Register</h3>
+
+                <form action="Aboutme.html" method="post" class="reg">
+                  <div class="reg_group">
+                    <label for="firstname" class="reg_label">First Name</label>
+                      <input
+                       type="text" required
+                       placeholder="Enter your first name">
+                  </div>
+
+                  <div class="reg_group">
+                    <label for="lastname" class="reg_label">Last Name</label>
+                      <input
+                       type="text" required
+                       placeholder="Enter your last name">
+                  </div>
+
+                  <div class="reg_group">
+                    <label for="phone" class="reg_label">Phone Number</label>
+                      <input
+                       type="tel" required
+                       placeholder="+234..">
+                  </div>
+
+                  <div class="reg_group">
+                    <label for="gender" class="reg_label">Gender</label>
+                      <select name="gender" id="">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                      </select>
+                  </div>
+
+                  <div class="reg_group">
+                    <label for="country" class="reg_label">Country</label>
+                      <input
+                       type="text" required>
+                  </div>
+
+                  <div class="reg_group">
+                    <label for="state" class="reg_label">State/Province</label>
+                      <input
+                       type="text" required>
+                  </div>
+
+                  <div class="reg_group">
+                    <label for="username" class="reg_label">Username</label>
+                      <input
+                       type="text" required
+                       placeholder="Enter your a username">
+                  </div>
+
+                  <div class="reg_group">
+                    <label for="password" class="reg_label">Password</label>
+                      <input
+                       type="password" required
+                       placeholder="Enter your password">
+                  </div>
+
+                  <div class="reg_group">
+                    <label for="name" class="reg_label">Confirm Password</label>
+                      <input
+                       type="password" required>
+                       <i id="togglepassword"></i>  
+                  </div>
+
+                  <a href="http://Aboutme.html"><button>Register</button></a>
+
+                  <div class="account">
+                    <div>
+                      <P>Already have an account?</P>
+                    </div>
+
+                    <div>
+                      <a class="signin" href="login.html">Log In</a>
+                    </div>
+                  
+                  </div>
+                </form>
+              </div>
+
+            </div>
+        </section>
+
+        <footer>
+
+          <div class="foot">
+           <div>
+             <p>2022 OB's. All rights reserved</p>
+           </div>
+    
+           <div>
+             <img class="icons" src="icons.png" alt="">
+           </div>
+        </div>
+    
+        </footer>
+
+    </main>
+</body>
+</html>
